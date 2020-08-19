@@ -3,6 +3,7 @@ Aim: To study LZWcoding
 Equipment/Software: Python codes and Colaboratory
 
 Theory:
+
 This is a popular variant of LZ78, developed by Terry Welch in 1984. Its main
 feature is eliminating the second field of a token. An LZW token consists of just a pointer to
 the dictionary. To best understand LZW, we will temporarily forget that the dictionary is a
