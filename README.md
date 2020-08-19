@@ -1,11 +1,13 @@
 # Data-Encryption
-In this experiment our aim is to find Compression ratio using LZ78.
-We use Google Colab for the execution of the code
+Data encryption is a security method where information is encoded and can only be accessed or decrypted by a user with the correct encryption key. Encrypted data, also known as ciphertext, appears scrambled or unreadable to a person or entity accessing without permission.
 
-For LZ78
 
-LZ78-based schemes work by entering phrases into a dictionary and then, when a repeat occurrence of that particular phrase is found, outputting the dictionary index instead of the phrase.
-Every step LZ78 will send a pair (i,a) to the output, where i is an index of the phrase into the dictionary and a is the next symbol following immediately after the found phrase. The dictionary is represented like the trie with numbered nodes. If we go from the root to a certain node, we will get phrase from the input text.
-In each step we look for the longest phrase in dictionary, that would correspond to the unprocessed part of the input text. Index of this phrase together with the symbol, which follows the found part in input text, are then send to the output. The old phrase extended by the new symbol is then put into dictionary. This new phrase is numbered by the smallest possible number.
-The coding will start with tree, that has only one node, which represents empty string.
+How Data Encrytion Is Used 
 
+
+Data Encryption is used to deter malicious or negligent parties from accessing sensitive data. An important line of defense in a cybersecurity architecture, encryption makes using intercepted data as difficult as possible. It can be applied to all kinds of data protection needs ranging from classified government intel to personal credit card transactions. Data encryption software, also known as an encryption algorithm or cipher, is used to develop an encryption scheme which theoretically can only be broken with large amounts of computing power.
+
+
+Types of Encryption – Symmetric and Asymmetric
+
+Encryption is often applied in two different forms, a symmetric key or an asymmetric key. A symmetric key, or secret key, uses one key to both encode and decode the information. This is best used for one to one sharing and smaller data sets. Asymmetric, or public key cryptography, uses two linked keys – one private and one public. The encryption key is public and can be used by anyone to encrypt. The opposite key is kept private and used to decrypt.
