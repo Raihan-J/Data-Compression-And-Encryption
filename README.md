@@ -1,4 +1,4 @@
-#Data Compression And Encryption
+# Data Compression And Encryption
 
 Data encryption is a security method where information is encoded and can only be accessed or decrypted by a user with the correct encryption key. Encrypted data, also known as ciphertext, appears scrambled or unreadable to a person or entity accessing without permission.
 
