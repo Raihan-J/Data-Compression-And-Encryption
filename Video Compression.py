@@ -26,3 +26,4 @@ tf.test.gpu_device_name()
 #!wget https://res.cloudinary.com/dtwr5vm0s/video/upload/v1599639196/Colab/Carfpv.mp4
 
 
+hhhhhhh
